@@ -6,9 +6,4 @@ public class AlphabetPrinter {
         for( ch = 'A' ; ch <= 'Z' ; ch++ )
             System.out.println(ch);
     }
-
-    public static void main(String[] args) {
-        AlphabetPrinter a = new AlphabetPrinter();
-        a.printAlphabet();
-    }
 }
